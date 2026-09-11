@@ -3,7 +3,7 @@
 > 把链接丢进去，AI 按专业问法一层层拆开：**它是什么、靠什么赚钱、技术能不能复刻、流量从哪来、值不值得抄**。
 > 网站、短视频、文案、账号、直播、商品、课程、股票、论文…… 14 类都能拆，聊明白了一键出报告。
 
-**下载：[最新版 Windows 安装包](https://github.com/wangjianlin2026/pocket-codex/releases/latest)** —— 当前版本 **v0.1.4**，Windows x64，双击安装，第一次打开有向导带你走完。
+**下载：[最新版 Windows 安装包](https://github.com/wangjianlin2026/pocket-codex/releases/latest)** —— 当前版本 **v0.1.5**，Windows x64，双击安装，第一次打开有向导带你走完。
 
 ![主界面：左边对话，右边报告](docs/img/hero.png)
 
