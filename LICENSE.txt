@@ -1,0 +1,56 @@
+Pocket Codex 用户许可协议与免责声明
+版本 0.1.0 · 2026-09-10
+
+一、这是什么
+
+Pocket Codex（下称"本软件"）是一个本地桌面客户端。它调用你自己安装的 Codex CLI 引擎、以及你自己
+配置的大模型服务，用来对你提供的公开网页 / 短视频 / 文案做拆解分析并生成报告。本软件本身不含模型，
+不含任何 API 密钥，也不替任何人访问需要授权的内容。
+
+
+二、授权范围
+
+1. 你可以在一台或多台属于你自己的电脑上安装、使用本软件，用于个人用途或你所在组织的内部工作。
+2. 未经书面许可，你不得：再分发、出售、出租、转授权本软件或其修改版；不得删除或隐藏本软件的名称、
+   版权与许可声明；不得把本软件（或其修改版）作为你自己的产品对外提供。
+3. 本软件是专有软件，源代码不随安装包提供。
+
+
+三、第三方组件
+
+本软件基于 Electron（MIT License）、NSIS（zlib / libpng License）等开源组件构建，并调用
+OpenAI Codex CLI（Apache-2.0 License，由你自行安装）。上述组件的版权与许可归各自权利人所有，
+本协议不影响你依其许可享有的权利。安装包内不含任何模型权重。
+
+
+四、你的责任
+
+1. 模型与费用：你需要自行准备大模型服务的 base_url 与 API key；由此产生的费用由你自己的账号承担。
+2. 合法使用：你只能把本软件用于分析公开可见的信息，并遵守目标网站的服务条款与 robots 约定、
+   以及你所在地区的法律法规。不得用于未授权访问、绕过技术措施、抓取他人非公开数据，或其他违法用途。
+3. 账号风险：使用自动化方式访问目标网站，可能导致你的账号被限制或封禁。请自行评估风险后再使用。
+
+
+五、免责声明
+
+本软件按"现状"（AS IS）提供，不附带任何明示或默示的担保，包括但不限于对适销性、特定用途适用性
+与不侵权的担保。因使用或无法使用本软件而产生的任何直接或间接损失（包括但不限于账号受限、数据丢失、
+费用支出、业务中断），作者不承担任何责任。请在充分测试后再用于重要工作。
+
+
+六、其他
+
+本协议的解释与争议解决适用中华人民共和国法律。若本协议中任何条款被认定为无效或不可执行，
+其余条款仍然有效。继续安装或使用本软件，即表示你已阅读、理解并同意本协议。
+
+
+------------------------------------------------------------------------
+Pocket Codex License (English summary — the Chinese text above prevails)
+
+Proprietary software. You may install and use it on your own machines for personal or internal use.
+You may not redistribute, resell, sublicense, or remove the copyright and license notices. Source code
+is not provided. You must supply your own model credentials and pay for your own usage. Use it only on
+publicly visible information, and comply with each target site's terms of service and your local laws.
+Automated access may get your account restricted — evaluate the risk yourself. The software is provided
+"AS IS", without warranty of any kind, and the author is not liable for any damages. Third-party
+components (Electron, NSIS, OpenAI Codex CLI) remain under their own licenses.
