@@ -75,13 +75,16 @@
 
 | 东西 | 位置 |
 | --- | --- |
-| 引擎本体（`codex.exe`） | 跟应用装在一起：`<安装目录>\engine\`（应用目录写不了时退到 `%APPDATA%\pocket-codex\engine\`） |
-| 引擎的数据目录（`config.toml` 等） | `%APPDATA%\pocket-codex\engine\home\` |
-| 你的对话、网站收藏、发现清单 | `%APPDATA%\pocket-codex\pocket-store.json` |
-| 生成的报告 | `%APPDATA%\pocket-codex\reports\` |
-| 装好的技能 | `%APPDATA%\pocket-codex\engine\home\skills\` |
+| 引擎本体（`codex.exe`） | 跟应用装在一起：`<安装目录>\engine\cli\`（应用目录写不了时退到 `%APPDATA%\pocket-codex\engine\`） |
+| 引擎的数据目录（`config.toml` 等） | `<安装目录>\data\engine\home\` |
+| 你的对话、网站收藏、发现清单 | `<安装目录>\data\pocket-store.json` |
+| 生成的报告 | `<安装目录>\data\reports\` |
+| 装好的技能 | `<安装目录>\data\engine\home\skills\` |
+| 运行日志 | `<安装目录>\data\logs\` |
 
 引擎是**应用自己装、版本锁死**的：界面和引擎是一套，不看你机器上碰巧装了什么 codex，所以不会出现"版本对不上"的怪问题。
+
+整个软件就是一个文件夹（便携版）：数据、引擎都在它自己目录下，**不往系统盘（`C:`）写东西**，拷到别的电脑或插 U 盘照样能用。**要备份，把整个安装目录拷走就行。**
 
 ## 界面截图
 
